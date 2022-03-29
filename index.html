@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>List app</title>
+  </head>
+  <body>
+    <div class="to-do-app">
+      <h1>TO BUY</h1>
+      <div class="type">
+        <input type="text" class="search" />
+        <input type="submit" class="submit" />
+      </div>
 
-  
-  <title>List app</title>
+      <div class="list">
+        <ul>
+          <li>
+            <input type="checkbox" class="check" /> Groceries
+            <img class="delete" src="images/icon-cross.svg" alt="close" />
+          </li>
+          <li>
+            <input type="checkbox" class="check" /> Groceries
+            <img class="delete" src="images/icon-cross.svg" alt="close" />
+          </li>
+        </ul>
 
-</head>
-<body>
+        <div class="item-clear">
+          <p class="items-left">1 item left</p>
+          <p class="clear-completed">Clear Completed</p>
+        </div>
+      </div>
 
-  <div class="create">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consequatur sequi consectetur maxime iste quo, expedita nemo voluptas cupiditate nihil, consequuntur, corrupti ea nostrum autem voluptatum laboriosam officia repellendus veritatis.</p>
-    
-  </div>
-
-  <div class="create">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consequatur sequi consectetur maxime iste quo, expedita nemo voluptas cupiditate nihil, consequuntur, corrupti ea nostrum autem voluptatum laboriosam officia repellendus veritatis.</p>
-    
-  </div>
-
-  <div class="create">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque consequatur sequi consectetur maxime iste quo, expedita nemo voluptas cupiditate nihil, consequuntur, corrupti ea nostrum autem voluptatum laboriosam officia repellendus veritatis.</p>
-    
-  </div>
-
-
-
-
-</body>
+      <div class="info">
+        <p class="items-left">1 item left</p>
+        <div class="nav-links">
+          <p class="all">All</p>
+          <p class="active">Active</p>
+          <p class="completed">Completed</p>
+        </div>
+        <p class="clear-completed">Clear Completed</p>
+      </div>
+    </div>
+  </body>
 </html>
