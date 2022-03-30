@@ -7,23 +7,9 @@ body {
   background-color: hsl(235, 21%, 11%);
   color: white;
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-/* ### Primary
-
-- Bright Blue: hsl(220, 98%, 61%)
-- Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
-
-### Dark Theme
-
-- Very Dark Blue: hsl(235, 21%, 11%)
-- Very Dark Desaturated Blue: hsl(235, 24%, 19%)
-- Light Grayish Blue: hsl(234, 39%, 85%)
-- Light Grayish Blue (hover): hsl(236, 33%, 92%)
-- Dark Grayish Blue: hsl(234, 11%, 52%)
-- Very Dark Grayish Blue: hsl(233, 14%, 35%)
-- Very Dark Grayish Blue: hsl(237, 14%, 26%)
- */
 
 .to-do-app {
   align-items: center;
@@ -149,6 +135,12 @@ input[type='checkbox']:checked::before {
 .clear-completed:hover {
   color: hsl(220, 98%, 61%);
 }
+
+span {
+  color: hsl(220, 98%, 61%);
+  font-size: 1.1rem;
+}
+
 .item-clear {
   font-size: 1rem;
 }
