@@ -133,6 +133,11 @@ input[type='checkbox']:checked::before {
   cursor: pointer;
 }
 
+.all {
+  color: rgb(53, 53, 236);
+  /* color: rgb(175, 168, 168); */
+}
+
 .cut {
   text-decoration: line-through;
   opacity: 0.7;
