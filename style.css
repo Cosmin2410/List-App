@@ -44,7 +44,7 @@ body {
   height: 1.5rem;
   border-radius: 3px;
   padding: 5px 10px;
-  width: 15rem;
+  width: 18.5rem;
 }
 
 .submit {
@@ -55,11 +55,11 @@ body {
   color: white;
   border-radius: 3px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .submit:hover {
-  background-color: hsl(237, 34%, 33%);
+  background-color: hsl(220, 98%, 61%);
 }
 
 .list {
@@ -80,8 +80,8 @@ body {
   margin-left: auto;
   cursor: pointer;
   width: 1.5rem;
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(152deg)
-    brightness(103%) contrast(103%);
+  filter: brightness(0) saturate(100%) invert(55%) sepia(67%) saturate(5195%)
+    hue-rotate(206deg) brightness(96%) contrast(108%);
 }
 
 .item-clear {
@@ -94,11 +94,12 @@ body {
 
 .nav-links {
   background-color: hsl(235, 24%, 19%);
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 1rem;
   color: rgba(255, 255, 255, 0.623);
+  border-radius: 3px;
 }
 
 input[type='checkbox'] {
@@ -166,6 +167,6 @@ input[type='checkbox']:checked::before {
   }
 
   .list li {
-    width: 15rem;
+    width: 18rem;
   }
 }

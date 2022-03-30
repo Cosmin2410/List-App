@@ -25,6 +25,8 @@ const clearCompleted = document
   .querySelector('.clear-completed')
   .addEventListener('click', clearAllChecked);
 
+// Create li when ENTER is pressed
+
 function createRowEnter(e) {
   if (e.keyCode === 13) {
     let ul = document.querySelector('ul');
@@ -53,6 +55,8 @@ function createRowEnter(e) {
     textValue.value = '';
   }
 }
+
+// Create li when SUBMIT is pressed
 
 function createRow(e) {
   let ul = document.querySelector('ul');
