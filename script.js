@@ -96,7 +96,7 @@ function cutThrough(e) {
 function deleteLi(e) {
   if (e.target.classList.contains('delete')) {
     let li = e.target.parentElement;
-    li.style.display = 'none';
+    li.remove();
   }
 }
 
@@ -131,7 +131,7 @@ function clearAllChecked(e) {
 // Buttons nav
 
 function showAll() {
-  all.style.color = 'rgb(53, 53, 236)';
+  all.style.color = 'hsl(220, 98%, 61%)';
   active.style.color = ' rgb(175, 168, 168)';
   completed.style.color = ' rgb(175, 168, 168)';
 
@@ -147,7 +147,7 @@ function showAll() {
 }
 
 function showActive() {
-  active.style.color = 'rgb(53, 53, 236)';
+  active.style.color = 'hsl(220, 98%, 61%)';
   all.style.color = 'rgb(175, 168, 168)';
   completed.style.color = 'rgb(175, 168, 168)';
 
@@ -163,7 +163,7 @@ function showActive() {
 }
 
 function showCompleted() {
-  completed.style.color = 'rgb(53, 53, 236)';
+  completed.style.color = 'hsl(220, 98%, 61%)';
   active.style.color = ' rgb(175, 168, 168)';
   all.style.color = ' rgb(175, 168, 168)';
 

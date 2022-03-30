@@ -79,6 +79,9 @@ body {
 .delete {
   margin-left: auto;
   cursor: pointer;
+  width: 1.5rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(152deg)
+    brightness(103%) contrast(103%);
 }
 
 .item-clear {
@@ -103,14 +106,15 @@ input[type='checkbox'] {
   margin: 0;
   font: inherit;
   color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
+  width: 1.5em;
+  height: 1.5em;
   border: 0.15em solid currentColor;
   border-radius: 0.15em;
   transform: translateY(-0.075em);
   display: grid;
   place-content: center;
   cursor: pointer;
+  accent-color: hsl(220, 98%, 61%);
 }
 
 input[type='checkbox']::before {
@@ -126,6 +130,10 @@ input[type='checkbox']:checked::before {
   transform: scale(1);
 }
 
+.text-list {
+  font-size: 1.2rem;
+}
+
 .all,
 .active,
 .completed,
@@ -134,8 +142,14 @@ input[type='checkbox']:checked::before {
 }
 
 .all {
-  color: rgb(53, 53, 236);
-  /* color: rgb(175, 168, 168); */
+  color: hsl(220, 98%, 61%);
+}
+
+.clear-completed:hover {
+  color: hsl(220, 98%, 61%);
+}
+.item-clear {
+  font-size: 1rem;
 }
 
 .cut {
